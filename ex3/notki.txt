@@ -1,0 +1,3 @@
+projekt jest w dockerze projektowanie obiektowe 
+
+curl https://start.spring.io/starter.zip -d language=kotlin -d type=gradle-project-kotlin -d dependencies=web,mustache,jpa,h2,devtools -d packageName=pl.edu.uj.projobj -d name=ProjObj -o projobj.zip
