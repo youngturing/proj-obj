@@ -3,6 +3,8 @@ import axios from 'axios';
 
 const Payements: React.FC = () => {
 
+    console.log();
+    
     const sendPayementData = async () => {
         try {
             await axios.post('http://localhost:3001/api/payments', {data: 'Payements data'});
